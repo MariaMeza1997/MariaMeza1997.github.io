@@ -40,7 +40,6 @@
     
             &__imagen{
                 width: 100px;
-
                 
             }
             
@@ -70,6 +69,29 @@
     
     
             p{
+                display: block;
+                white-space: nowrap;
+                width: 18ch;
+                padding-top: 25px;
+                color: $white;
+                font-size: 20px;
+                text-align: center;
+                line-height: 25px;
+                border-right: 4px solid;
+                
+                @media(min-width:768px){
+                    font-size: 25px;
+                    line-height: 32px;
+                }
+                @media(min-width:1199px){ //*table
+                    text-align: start;
+                }
+
+                animation: maquina 5s steps(18), maquinatwo .5s infinite step-end alternate;
+                overflow: hidden;
+            }   
+
+            span{
                 padding-top: 25px;
                 color: $white;
                 font-size: 20px;
@@ -83,7 +105,23 @@
                 @media(min-width:1199px){ //*table
                     text-align: start;
                 }
+
+            }  
+
+            @keyframes maquina{
+                from {
+                    width: 0;
+
+                }
             }
+
+            @keyframes maquinatwo{
+                50% {
+                    border-color: transparent;
+
+                }
+            }
+
         }
     
         &__imagen{

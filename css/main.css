@@ -334,11 +334,17 @@
             line-height: 72px;
             font-size: 66px; } }
       .hero__about_us__text p {
+        display: block;
+        white-space: nowrap;
+        width: 18ch;
         padding-top: 25px;
         color: white;
         font-size: 20px;
         text-align: center;
-        line-height: 25px; }
+        line-height: 25px;
+        border-right: 4px solid;
+        animation: maquina 5s steps(18), maquinatwo 0.5s infinite step-end alternate;
+        overflow: hidden; }
         @media (min-width: 768px) {
           .hero__about_us__text p {
             font-size: 25px;
@@ -346,6 +352,27 @@
         @media (min-width: 1199px) {
           .hero__about_us__text p {
             text-align: start; } }
+      .hero__about_us__text span {
+        padding-top: 25px;
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        line-height: 25px; }
+        @media (min-width: 768px) {
+          .hero__about_us__text span {
+            font-size: 25px;
+            line-height: 32px; } }
+        @media (min-width: 1199px) {
+          .hero__about_us__text span {
+            text-align: start; } }
+
+@keyframes maquina {
+  from {
+    width: 0; } }
+
+@keyframes maquinatwo {
+  50% {
+    border-color: transparent; } }
     .hero__about_us__imagen {
       width: 100%; }
   .hero__skills {
