@@ -346,35 +346,6 @@
         @media (min-width: 1199px) {
           .hero__about_us__text p {
             text-align: start; } }
-      .hero__about_us__text__button {
-        display: flex;
-        align-items: center;
-        justify-content: center; }
-        @media (min-width: 1199px) {
-          .hero__about_us__text__button {
-            display: flex;
-            align-items: center;
-            justify-content: flex-start; } }
-        .hero__about_us__text__button a {
-          border: 2px solid #DEC83C;
-          margin-top: 30px;
-          background-color: #DEC83C;
-          font-family: Poppins-Bold;
-          padding: 15px 30px;
-          color: black;
-          font-size: 15px;
-          border-radius: 10px;
-          text-align: center; }
-          @media (min-width: 300px) {
-            .hero__about_us__text__button a {
-              font-size: 20px; } }
-          @media (min-width: 768px) {
-            .hero__about_us__text__button a {
-              font-size: 25px; } }
-        .hero__about_us__text__button a:hover {
-          background-color: white;
-          color: #00489A;
-          border: 2px solid #00489A; }
     .hero__about_us__imagen {
       width: 100%; }
   .hero__skills {
@@ -846,7 +817,7 @@
   justify-content: center;
   flex-direction: column; }
   .thanks h2 {
-    color: black;
+    color: white;
     font-size: 20px;
     text-align: center;
     font-family: GE Sans bold; }
@@ -867,13 +838,13 @@
         font-size: 18px;
         padding-top: 20px; } }
   .thanks a {
-    border: 2px solid #00489A;
+    border: 2px solid #c9b2ba;
     margin-top: 15px;
-    background-color: #00489A;
-    font-family: OpenSans-Bold;
+    background-color: #c9b2ba;
+    font-family: Poppins-Bold;
     font-weight: bold;
     padding: 15px 30px;
-    color: white;
+    color: black;
     border-radius: 28px;
     text-align: center; }
     @media (min-width: 300px) {
@@ -886,9 +857,9 @@
       .thanks a {
         margin-top: 30px; } }
   .thanks a:hover {
-    background-color: white;
-    color: #00489A;
-    border: 2px solid #00489A; }
+    background-color: black;
+    color: #c9b2ba;
+    border: 2px solid #c9b2ba; }
 
 @font-face {
   font-family: Poppins-Regular;

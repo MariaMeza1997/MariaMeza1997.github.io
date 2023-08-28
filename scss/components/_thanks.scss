@@ -5,7 +5,7 @@
   flex-direction: column;
 
       h2{
-        color: $black;
+        color: $white;
         font-size: 20px;
         text-align: center;
         font-family: GE Sans bold;
@@ -33,13 +33,13 @@
     }
 
     a{
-      border: 2px solid $elephant;
+      border: 2px solid $pink;
       margin-top: 15px;
-      background-color:$elephant;
-      font-family: OpenSans-Bold;
+      background-color:$pink;
+      font-family: Poppins-Bold;
       font-weight: bold;
       padding: 15px 30px ;
-      color:white;
+      color:$black;
       border-radius: 28px;
       text-align: center;
 
@@ -59,8 +59,8 @@
     }
 
     a:hover{
-      background-color:$white ;
-      color: $elephant;
-      border: 2px solid $elephant;
+      background-color:$black;
+      color:$pink;
+      border: 2px solid $pink;
     }
 }
