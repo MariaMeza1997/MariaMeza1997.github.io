@@ -433,10 +433,14 @@
 }
 
 .swiper{
-	width: 100%;
+	width: 90%;
     margin: auto;
     overflow: hidden;
     height: 100%;
+
+    @media(min-width:1199px){
+        width: 100%;
+    }
 
 		.swiper-slide{
             width: 100% !important;

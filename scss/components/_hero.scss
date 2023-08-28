@@ -20,6 +20,7 @@
         .container{
             @include flex-center-center;
             flex-direction: column-reverse;
+            gap: 15px;
     
             @media(min-width:1199px){
                 display: grid;
