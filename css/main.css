@@ -328,7 +328,8 @@
         @media (min-width: 1199px) {
           .hero__about_us__text h1 {
             text-align: start;
-            font-size: 60px; } }
+            font-size: 60px;
+            line-height: 70px; } }
         @media (min-width: 1700px) {
           .hero__about_us__text h1 {
             line-height: 72px;
