@@ -71,7 +71,7 @@
             p{
                 display: block;
                 white-space: nowrap;
-                width: 18ch;
+                width: 20ch;
                 padding-top: 25px;
                 color: $white;
                 font-size: 20px;
@@ -87,11 +87,12 @@
                     text-align: start;
                 }
 
-                animation: maquina 5s steps(18), maquinatwo .5s infinite step-end alternate;
+                animation: maquina 5s steps(20), maquinatwo .5s infinite step-end alternate;
                 overflow: hidden;
             }   
 
             span{
+                width: 100%;
                 padding-top: 25px;
                 color: $white;
                 font-size: 20px;

@@ -336,14 +336,14 @@
       .hero__about_us__text p {
         display: block;
         white-space: nowrap;
-        width: 18ch;
+        width: 20ch;
         padding-top: 25px;
         color: white;
         font-size: 20px;
         text-align: center;
         line-height: 25px;
         border-right: 4px solid;
-        animation: maquina 5s steps(18), maquinatwo 0.5s infinite step-end alternate;
+        animation: maquina 5s steps(20), maquinatwo 0.5s infinite step-end alternate;
         overflow: hidden; }
         @media (min-width: 768px) {
           .hero__about_us__text p {
@@ -353,6 +353,7 @@
           .hero__about_us__text p {
             text-align: start; } }
       .hero__about_us__text span {
+        width: 100%;
         padding-top: 25px;
         color: white;
         font-size: 20px;
