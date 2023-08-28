@@ -1,0 +1,57 @@
+.menu{
+	width: 70%;
+	height: 100vh;
+	position: fixed;
+	top: 0;
+    left: -200%;
+	background: $black;
+	z-index: 100;
+	padding: 30px 5px;
+	transition: 0.3s;
+
+	&--active{
+		left: 0%;
+	}
+
+	&__links{
+		@include flex-j-center;
+		flex-direction: column;
+
+        &__contact{
+            @include flex-center-center;
+            flex-direction: column;
+
+            &__item{
+                 @include flex-center-center;
+                 padding: 10px 0;
+                 gap: 10px;
+
+                 @media(min-width:1199px){
+                    flex-direction: row;
+                 }
+
+                 &__icon{
+					width: 20px;
+
+                    img{
+                        filter: sepia(100%) brightness(200%) saturate(0%) contrast(1000%);
+                        -webkit-filter: sepia(100%) brightness(200%) saturate(0%) contrast(1000%);
+                        -moz-filter: sepia(100%) brightness(200%) saturate(0%) contrast(1000%);
+                    }
+                }
+
+                a.phone{
+                    font-size: 15px;
+                    color: $white;
+					font-weight: 400;
+                    transition: 0.3s;
+        
+                } 
+            }
+        }
+
+	}
+
+
+
+}

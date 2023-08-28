@@ -1,0 +1,218 @@
+.hero{
+    background:linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6),),url('../../img/flower-one.png');
+    background-position: 0% 80% ;
+    background-repeat: no-repeat;
+   
+    &__about_us{
+        width: 100%;
+        position: relative;
+        height: auto;
+        /*margin-top: 80px;*/
+        padding:90px  0 0 0;
+       @include flex-center-center;
+    
+        @media(min-width:1199px){
+            height: auto;
+            padding:124px  0 0 0;
+        }
+    
+    
+        .container{
+            @include flex-center-center;
+            flex-direction: column-reverse;
+    
+            @media(min-width:1199px){
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                gap: 30px;
+            }
+        }
+    
+        &__text{
+            width: 100%;
+            @include flex-center-center;
+            flex-direction: column;
+    
+            @media(min-width:1199px){ //*table
+                @include flex-start-center;
+            }
+    
+            &__imagen{
+                width: 100px;
+
+                
+            }
+            
+            h1{
+                color: $pink;
+                font-size: 25px;
+                font-weight:bold;
+                text-align: center;
+                font-family: Poppins-Bold;
+                line-height: 32px;
+    
+                @media(min-width:768px){ //*phone
+                    font-size: 45px;
+                    line-height:50px;
+                }
+    
+                @media(min-width:1199px){ //*table
+                    text-align: start;
+                    font-size: 60px;
+                }
+    
+                @media(min-width:1700px){//*Desktop
+                    line-height: 72px;
+                    font-size: 66px;
+                }
+            }
+    
+    
+            p{
+                padding-top: 25px;
+                color: $white;
+                font-size: 20px;
+                text-align: center;
+                line-height: 25px;
+                
+                @media(min-width:768px){
+                    font-size: 25px;
+                    line-height: 32px;
+                }
+                @media(min-width:1199px){ //*table
+                    text-align: start;
+                }
+            }
+            &__button{
+                @include flex-center-center;
+    
+                @media(min-width:1199px){
+                    @include flex-center-start;
+                }
+    
+                a{
+                    border: 2px solid $gold_drop;
+                    margin-top: 30px;
+                    background-color:$gold_drop ;
+                    font-family: Poppins-Bold;
+                    padding: 15px 30px ;
+                    color:$black;
+                    font-size: 15px;
+                    border-radius: 10px;
+                    text-align: center;
+    
+                    @media(min-width:300px){
+                        font-size: 20px;         
+                    }
+        
+                    @media(min-width:768px){
+                        font-size: 25px;
+                        
+                    }
+                }
+    
+                a:hover{
+                    background-color:$white ;
+                    color: $elephant;
+                    border: 2px solid $elephant;
+                }
+            }
+        }
+    
+        &__imagen{
+            width: 100%;
+
+        }
+    }
+    
+    &__skills{
+        padding-top: 15px;
+        width: 100%;
+        position: relative;
+        height: auto;
+        padding: 30px 0 30px 0;
+        margin: 30px 0 30px 0;
+    
+        @media(min-width:1199px){
+            padding: 60px 0 0px 0;
+            margin: 60px 0 0 0;
+        }
+    
+        /*margin-top: 80px;*/
+       @include flex-center-center;
+       flex-direction: column;
+    
+        @media(min-width:1199px){
+            height: auto;
+        }
+    
+
+        .container{
+            @include flex-center-center;
+            flex-direction: column;
+        }
+
+        &__title{
+            padding-bottom: 30px;
+            h1{
+                color: $pink;
+                font-size: 20px;
+                text-align: center;
+                font-family:Poppins-Bold;
+           
+                @media(min-width:768px){
+                    font-size: 25px;
+                }
+        
+                @media(min-width:1199px){
+                    font-size: 30px;
+                }
+                        
+                @media(min-width:1700px){
+                    font-size: 35px;
+                }
+            }
+        }
+        &__grid{
+            /*border-radius: 5px;
+            background-color: rgba(201,178,186,0.7);*/
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+
+            @media(min-width:378px){
+                grid-template-columns: repeat(4, 1fr);
+            }
+
+            @media(min-width:578px){
+                grid-template-columns: repeat(6, 1fr);
+            }
+
+
+            @media(min-width:991px){
+                grid-template-columns: repeat(8, 1fr);
+                gap: 30px;
+            }
+
+            @media(min-width:1199px){
+                grid-template-columns: repeat(10, 1fr);
+            }
+
+            @media(min-width:1700px){
+                grid-template-columns: repeat(10, 1fr);
+            }
+
+            img.logo{
+                width: auto;
+                width: 90%;
+                height: 80%;
+                margin: auto;
+            }
+        }
+    }
+
+}
+
+
+ 

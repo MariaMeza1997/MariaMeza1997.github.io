@@ -1,0 +1,72 @@
+//* Globals
+@import 'globals/colors';
+@import 'globals/container.scss';
+
+
+//* Mixins
+@import 'mixins/flex';
+
+//* Layouts
+@import 'layout/header';
+@import 'layout/menu';
+@import 'layout/footer';
+@import 'layout/whatsapp';
+
+//*components
+@import 'components/hero';
+@import 'components/services';
+@import 'components/banner_contact';
+@import 'components/banner_services';
+@import 'components/reviews';
+@import 'components/form';
+@import 'components/offer';
+
+
+
+//*thanks
+@import 'components/thanks';
+
+@font-face {
+	font-family:  Poppins-Regular;
+	src: url('../fonts/Poppins-Regular.ttf') format('truetype');
+
+  }
+
+  @font-face {
+	font-family:  Poppins-Bold;
+	src: url('../fonts/Poppins-Bold.ttf') format('truetype');
+
+  }
+
+  
+*{
+	font-family: Poppins-Regular;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+main{
+	background-color: black;
+}
+
+button{
+	border: 0;
+	outline: none;
+	background-color: transparent;
+	transition: 0.3s;
+}
+
+a{
+	text-decoration: none;
+	transition: 0.3s;
+}
+
+svg{
+	width: 100%;
+	height: 100%;
+}
+
+
+

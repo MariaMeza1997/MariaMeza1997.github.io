@@ -1,0 +1,158 @@
+//* Align
+@mixin flex-a-start {
+	display: flex;
+	align-items: flex-start;
+}
+
+@mixin flex-a-center {
+	display: flex;
+	align-items: center;
+}
+
+@mixin flex-a-end {
+	display: flex;
+	align-items: flex-end;
+}
+
+
+//* Justify
+@mixin flex-j-start{
+	display: flex;
+	justify-content: flex-start;
+}
+
+@mixin flex-j-center{
+	display: flex;
+	justify-content: center;
+}
+
+@mixin flex-j-end{
+	display: flex;
+	justify-content: flex-end;
+}
+
+@mixin flex-j-between{
+	display: flex;
+	justify-content: space-between;
+}
+
+@mixin flex-j-around{
+	display: flex;
+	justify-content: space-around;
+}
+
+@mixin flex-j-evenly{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+//* Align start & Justify
+@mixin flex-start-start {
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+}
+
+@mixin flex-start-center {
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+}
+
+@mixin flex-start-end {
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-end;
+}
+
+@mixin flex-start-between {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+
+@mixin flex-start-around {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-around;
+}
+
+@mixin flex-start-evenly {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-evenly;
+}
+
+//* Align center & Justify
+@mixin flex-center-start {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+@mixin flex-center-center {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+@mixin flex-center-end {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+@mixin flex-center-between {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+@mixin flex-center-around {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+@mixin flex-center-evenly {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+//* Align end & Justify
+@mixin flex-end-start {
+	display: flex;
+	align-items: flex-end;
+	justify-content: flex-start;
+}
+
+@mixin flex-end-center {
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+}
+
+@mixin flex-end-end {
+	display: flex;
+	align-items: flex-end;
+	justify-content: flex-end;
+}
+
+@mixin flex-end-between {
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-between;
+}
+
+@mixin flex-end-around {
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-around;
+}
+
+@mixin flex-end-evenly {
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-evenly;
+}

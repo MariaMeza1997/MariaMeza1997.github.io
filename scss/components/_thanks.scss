@@ -1,0 +1,66 @@
+.thanks {
+  width: 100%;
+  height: 83vh;
+  @include flex-center-center;
+  flex-direction: column;
+
+      h2{
+        color: $black;
+        font-size: 20px;
+        text-align: center;
+        font-family: GE Sans bold;
+
+        @media(min-width:768px){
+            font-size: 25px;
+        }
+
+        @media(min-width:1700px){
+            font-size: 30px;
+        }
+    }
+
+    p{
+      padding-top: 15px;
+      color: $black;
+      font-family: GE Sans;
+      font-size: 15px;
+      text-align: center;
+
+      @media(min-width: 1199px){
+          font-size: 18px;
+          padding-top: 20px;
+      }
+    }
+
+    a{
+      border: 2px solid $elephant;
+      margin-top: 15px;
+      background-color:$elephant;
+      font-family: OpenSans-Bold;
+      font-weight: bold;
+      padding: 15px 30px ;
+      color:white;
+      border-radius: 28px;
+      text-align: center;
+
+      @media(min-width:300px){
+          font-size: 20px;         
+      }
+
+      @media(min-width:768px){
+          font-size: 25px;
+          
+      }
+
+      @media(min-width:1199px){
+          margin-top: 30px;
+      }
+
+    }
+
+    a:hover{
+      background-color:$white ;
+      color: $elephant;
+      border: 2px solid $elephant;
+    }
+}

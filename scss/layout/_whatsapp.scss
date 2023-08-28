@@ -1,0 +1,27 @@
+.layout_redes{
+	@include flex-center-center;
+	flex-direction: column;
+	position: fixed;
+	bottom: 35px;
+	right: 25px;
+	z-index: 100;
+	gap: 10px;
+
+	@media(min-width: 1199px){
+		bottom: 80px;
+    }
+
+	&__button{
+		@include flex-center-center;
+		flex-direction: column;
+		max-width: 100px !important;
+		height: auto;
+		padding: 15px;
+
+		img{
+			width: 30px;
+		}
+		
+	}
+	
+}

@@ -1,0 +1,47 @@
+.footer{
+	width: 100%;
+	background-color:$black;
+	padding: 30px 0;
+	position: absolute;
+	border-top: 1px solid white;
+
+	.container{
+		@include flex-center-center;	
+		flex-direction: column;	
+		gap: 15px;
+	}
+
+	&__logo{
+		margin: auto;
+		width: 80px;
+		
+		@media(min-width:1199px){
+			width: 100px;
+		}
+	}
+
+	&__text{
+		@include flex-center-center;
+		flex-direction: column;
+
+		@media(min-width:1199px){
+			@include flex-start-center;
+			grid-column: 2 / 4;
+		}
+		
+		h1{
+		color: white;
+		line-height:25px;
+		font-size: 15px;
+		text-align: center;
+		font-weight: 100;
+
+		@media(min-width:1199px){
+			font-size: 18px;
+			text-align: start;
+		}
+		}
+	}
+
+
+}
