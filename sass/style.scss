@@ -649,8 +649,8 @@ body {
 			transform: translate3d(0, 15px, 0);
 		}
 		@media screen and(max-width: $screen-sm){
-			opacity: 1;
-			background: transparent !important;
+			//opacity: 1;
+			//background: transparent !important;
 			h3{
 				-webkit-transform: translate3d(0, 0, 0);
 				transform: translate3d(0, 0, 0);
