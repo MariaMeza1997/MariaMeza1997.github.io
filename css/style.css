@@ -585,12 +585,12 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
 @media screen and (max-width: 768px) {
   .work .desc {
     opacity: 0;
-    background: rgba(0, 0, 0, 0.9) !important;
+    background: white !important;
   }
   .work .desc h3 {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
-    color: #fff;
+    color: black;
   }
   .work .desc span {
     -webkit-transform: translate3d(0, 0, 0);
